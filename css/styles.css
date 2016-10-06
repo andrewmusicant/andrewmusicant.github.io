@@ -1,0 +1,33 @@
+.timeline:before {
+  bottom: 30px;
+}
+
+@media (max-width: 1199px) {
+  .timeline:before {
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .timeline:before {
+    bottom: 180px;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline:before {
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 479px) {
+  .timeline:before {
+    bottom: 120px;
+  }
+}
+
+@media (max-width: 417px) {
+  .timeline:before {
+    bottom: 180px;
+  }
+}
